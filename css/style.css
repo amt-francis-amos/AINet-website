@@ -608,7 +608,13 @@ strong{
     }
 
 
+    .about-img{
+        background-position:center;
+    }
 
+    .about-img h1{
+        font-size:2em;
+    }
 
 
 
