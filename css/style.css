@@ -616,7 +616,24 @@ strong{
         font-size:2em;
     }
 
+    .footer{
+        text-align:center;
+    }
 
+
+    .copyright{
+        width:80%;
+        margin:50px auto;
+    }
+
+
+    .tel-con{
+        flex-direction:column;
+    }
+
+    .tel p{
+        margin:15px auto;
+    }
 
 }
 
