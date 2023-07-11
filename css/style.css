@@ -142,7 +142,7 @@ header .navigation li a:hover{
 
 
     50%{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/hero-bg-2.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pic-2.png);
     }
 
     75%{
