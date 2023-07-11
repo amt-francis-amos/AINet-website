@@ -122,15 +122,19 @@ header .navigation li a:hover{
 .banner{
     position:relative;
     width:100%;
-    min-height:100vh;
+    height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/hero-bg.jpg); 
     background-size:cover;
+    background-position:center;
     animation:slider 20s infinite;
-    background-attachment:fixed;
+  
 }
+
+
+
 
 
 @keyframes slider {
@@ -449,8 +453,23 @@ header .navigation li a:hover{
         padding:20px;
     }
 
+
+    .banner {
+
+        height:70vh;
+        overflow:hidden;
+        background-position:center;
+        background-repeat:no-repeat;
+    }
+
+
+
+
+
+
+
     .banner .content h2{
-        font-size:3em;
+        font-size:2em;
         color:#fff;
     }
 
@@ -512,6 +531,10 @@ header .navigation li a:hover{
     header.sticky .menuToggle{
         filter:invert(1);
     }
+
+
+
+
 
 
 }
