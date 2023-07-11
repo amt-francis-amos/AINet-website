@@ -17,9 +17,6 @@ body{
 
 
 
-
-
-
 p{
     font-weight:300;
     color:#111;
@@ -249,7 +246,7 @@ header .navigation li a:hover{
 
 /* --------FOOTER SECTION  ---------- */
 .footer{
-    padding:100px 0;
+    padding:50px 0;
     background:var(--color-blue);
     background-size: cover;
     background-repeat:no-repeat;
@@ -286,6 +283,19 @@ header .navigation li a:hover{
     color:#fff;
     font-weight:300;
 }
+
+
+
+.copyright{
+    text-align:center;
+    color:#fff;
+    margin-top:50px;
+}
+
+strong{
+    color:var(--chrome-yellow);
+}
+
 
 
 .footer-details p{
@@ -518,6 +528,7 @@ header .navigation li a:hover{
         background-repeat:no-repeat;
         background-position:center;
         cursor:pointer;
+        z-index:1;
     }
 
      
