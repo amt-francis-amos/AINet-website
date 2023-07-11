@@ -146,13 +146,13 @@ header .navigation li a:hover{
     }
 
     75%{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/hero-bg-3.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pic-4.jpg);
     }
 
 
 
     100%{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/whychose.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/pic-3.jpg);
     }
     
 }
@@ -194,7 +194,7 @@ header .navigation li a:hover{
 }
 
 .btn:hover{
-   letter-spacing:6px;
+   background: #b8466c;
 }
 
 /*--------END OF HEADER SECTION-------*/
@@ -288,7 +288,7 @@ header .navigation li a:hover{
 }
 
 .why-choose-info p{
-    font-size:18px;
+    font-size:16px;
 }
 
 
@@ -346,6 +346,11 @@ header .navigation li a:hover{
     font-weight:300;
 }
 
+
+
+.footer-details li a:hover{
+    color:#ff0157;
+}
 
 
 .copyright{
