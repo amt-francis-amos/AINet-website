@@ -129,6 +129,7 @@ header .navigation li a:hover{
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/hero-bg.jpg); 
     background-size:cover;
     animation:slider 20s infinite;
+    background-attachment:fixed;
 }
 
 
@@ -150,7 +151,7 @@ header .navigation li a:hover{
 
 
     100%{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/hero-gb-4.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/whychose.jpg);
     }
     
 }
