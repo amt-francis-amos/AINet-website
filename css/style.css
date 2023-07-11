@@ -180,8 +180,9 @@ header .navigation li a:hover{
     font-size:1em;
     color:#fff;
     background:#ff0157;
-    padding:10px 30px;
+    padding:16px 30px;
     margin-top:20px;
+    border-radius:50px;
     text-transform:uppercase;
     text-decoration:none;
     letter-spacing:2px;
@@ -198,7 +199,38 @@ header .navigation li a:hover{
 
 
 
+/* -----WHY CHOOSE US---------- */
+.why-choose{
+    padding:100px 0;
+}
 
+.why-choose-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    padding:0 8%;
+    gap:5rem;
+}
+
+.why-choose-info img{
+    max-width: 100%;
+}
+
+.why-choose-info h2{
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.why-choose-info p{
+    font-size:18px;
+}
+
+
+
+
+
+
+
+/* -----END OFWHY CHOOSE US---------- */
 
 
 
