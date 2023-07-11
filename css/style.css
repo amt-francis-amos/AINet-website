@@ -455,7 +455,6 @@ header .navigation li a:hover{
 
 
     .banner {
-
         height:70vh;
         overflow:hidden;
         background-position:center;
@@ -463,6 +462,9 @@ header .navigation li a:hover{
     }
 
 
+    .banner .content{
+        margin-top:80px;
+    }
 
 
 
