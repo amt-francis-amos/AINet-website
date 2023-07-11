@@ -12,3 +12,8 @@ window.addEventListener('scroll', function(){
         menuToggle.classList.toggle('active');
         navigation.classList.toggle('active'); 
     }
+
+
+
+
+    //----- IMAGE SLIDER ----
