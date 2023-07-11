@@ -37,6 +37,7 @@ p{
   --pink-purple: hsl(335, 88%, 38%);
   --black: hsla(0, 0%, 0%, 0.7);
   --rajah: hsl(29, 99%, 67%);
+  --chrome-yellow: hsl(39, 100%, 52%);
   --white: hsl(0, 0%, 100%);
 }
 
@@ -209,7 +210,11 @@ header .navigation li a:hover{
 /* --------FOOTER SECTION  ---------- */
 .footer{
     padding:100px 0;
-    background:var(--color-purple);
+    background:var(--color-blue);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-image:url(../images/footer-bg.png);
 }
 
 
@@ -238,6 +243,7 @@ header .navigation li a:hover{
 
 .footer-details li a{
     color:#fff;
+    font-weight:300;
 }
 
 
@@ -276,7 +282,7 @@ header .navigation li a:hover{
 
 
 .social-media i:hover{
-    background:linear-gradient(hsl(335, 88%, 38%),hsl(29, 99%, 67%));
+    background:linear-gradient(hsl(335, 88%, 38%),hsl(39, 100%, 52%));
     color:#fff;
 }
 
