@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+/* ----GLOBAL VARIABLES ------ */
+*{
+    font-family:'Poppins',sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    scroll-behavior:smooth;
+}
+
+
+
+
+body{
+    min-height:1000px;
+}
+
+
+
+
+
+
+p{
+    font-weight:300;
+    color:#111;
+}
+
+
+
+
+/* -----CSS RESET ------------ */
+
+:root{
+
+}
+
+
+
+
+
+
+
+
+
+
+header{
+    position:fixed;
+    height:90px;
+    top:0;
+    left:0;
+    width:100%;
+    padding:40px 100px;  
+    z-index:10000;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    transition:0.5s;
+    background:#fff;
+   
+}
+
+
+/*--------HEADER SCROLL EFFECTS-------*/
+header.sticky{
+    background:#fff;
+    padding:10px 100px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.5);
+}
+
+header.sticky .logo{
+  color:#000;
+}
+
+header.sticky .navigation li a{
+    color:#000;
+}
+
+header.sticky .navigation li a:hover{
+    color:#ff0157;
+}
+
+/*--------END OF HEADER SCROLL EFFECTS-------*/
+
+
+/*--------HEADER SECTION-------*/
+
+header .logo img{
+    color:#fff;
+    font-weight:700;
+    width:120px;
+}
+
+
+header .logo span{
+    color:#ff0157;
+}
+
+
+header .navigation{
+    position:relative;
+    display:flex;
+   
+}
+
+header .navigation li{
+    list-style:none;
+    margin-left:30px;
+}
+
+header .navigation li a{
+    color:#000;
+    font-weight:400;
+    text-transform:uppercase;
+}
+
+header .navigation li a:hover{
+    color:#ff0157; 
+}
+
+.banner{
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/hero-bg.jpg);
+    background-size:cover;
+}
+
+.banner .content{
+    text-align:center;
+    max-width:900px;
+}
+
+.banner .content h2{
+    color:#fff;
+    font-size:3.5em;
+}
+
+.banner .content p{
+    color:#fff;
+    font-size:1em;
+}
+
+.btn{
+    font-size:1em;
+    color:#fff;
+    background:#ff0157;
+    padding:10px 30px;
+    margin-top:20px;
+    text-transform:uppercase;
+    text-decoration:none;
+    letter-spacing:2px;
+    display:inline-block;
+    cursor:pointer;
+    transition:0.5s;
+}
+
+.btn:hover{
+   letter-spacing:6px;
+}
+
+/*--------END OF HEADER SECTION-------*/
+
+
+
+
+
+
+
+
+
+
+/*--------RESPONSIVE SECTION-------*/
+
+
+@media(max-width:991px){
+
+    header,header.sticky{
+        padding:10px 20px;
+    }
+
+    section{
+        padding:20px;
+    }
+
+    .banner .content h2{
+        font-size:3em;
+        color:#fff;
+    }
+
+
+    
+    header .navigation{
+        display:none;
+    }
+
+
+    header .navigation.active{
+        width:100%;
+        height:calc(100% - 68px);
+        position:fixed;
+        top:68px;
+        left:0;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        background:#fff;
+    }
+
+
+    header .navigation li{
+        margin-left:0;
+    }
+
+
+    header .navigation li a{
+        color:#111;
+        font-size:1.6em;
+        font-weight:300;
+    }
+
+
+
+    .menuToggle{
+        position:relative;
+        width:40px; 
+        height:40px;
+        background-size:30px;
+        background:url(../images/menu.png);
+        background-repeat:no-repeat;
+        background-position:center;
+        cursor:pointer;
+    }
+
+     
+    .menuToggle.active{
+        background:url(../images/close.png);
+        background-repeat:no-repeat;
+        background-size:25px;
+        background-position:center;
+        cursor:pointer;
+    }
+
+
+    header.sticky .menuToggle{
+        filter:invert(1);
+    }
+
+
+}
+
+@media(max-width:480px){
+    .banner .content h2{
+        font-size:2.2em;
+        color:#fff;
+    }
+}
