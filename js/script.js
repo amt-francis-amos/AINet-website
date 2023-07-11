@@ -16,4 +16,4 @@ window.addEventListener('scroll', function(){
 
 
 
-    //----- IMAGE SLIDER ----
+
