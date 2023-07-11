@@ -221,6 +221,7 @@ header .navigation li a:hover{
 .footer-details img{
     width:100px;
     background:#fff;
+    border-radius:5px;
 }
 
 
