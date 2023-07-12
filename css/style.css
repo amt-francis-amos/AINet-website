@@ -390,12 +390,31 @@ header .navigation li a:hover{
 
 .gallery-page{
     background:#f3f3f3;
+    padding:100px 0;
 }
+
+.gallery-page h1{
+    margin-top:5%;
+    text-align:center;
+}
+
+
+.gallery-page  h1::after{
+    content:'';
+    width:100px;
+    height:4px;
+    border-radius:5px;
+    background:#ff0157;
+    display:block;
+    margin:5px auto;
+}
+
+
 
 
 .container{
     width:100%;
-    min-height:100vh;
+    min-height:50vh;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -409,7 +428,7 @@ header .navigation li a:hover{
 }
 
 .gallery img{
-    width:100%;
+    max-width:100%;
     border-radius:20px;
     
 }
