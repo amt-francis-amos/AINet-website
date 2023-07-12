@@ -413,6 +413,16 @@ header .navigation li a:hover{
 }
 
 
+.why-choose-info h2::after{
+    content:'';
+    width:100px;
+    height:4px;
+    border-radius:5px;
+    background:#ff0157;
+    display:block;
+    margin:5px  0;
+}
+
 
 
 
