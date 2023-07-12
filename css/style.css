@@ -322,13 +322,34 @@ header .navigation li a:hover{
     font-size:16px;
 }
 
-
-
-
-
-
-
 /* -------------END OF OUR SOLUTION SECTION-------------- */
+
+
+
+
+
+/* -------------CALL TO ACTION-------------- */
+
+.cta{
+    width:100%;
+    min-height:50vh;
+    padding:100px 0;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/cta.png);
+}
+
+/* -------------END OF CALL TO ACTION-------------- */
+
+
+
+
+
+
+
+
 
 
 
