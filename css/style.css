@@ -402,19 +402,6 @@ header .navigation li a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -------------OUR SOLUTION SECTION-------------- */
 
 .our-solution{
@@ -490,6 +477,97 @@ header .navigation li a:hover{
 }
 
 /* -------------END OF OUR SOLUTION SECTION-------------- */
+
+
+
+
+
+
+/*-------- COURSE SECTION-------*/
+
+.offering{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+}
+
+.offering h1{
+    font-size:36px;
+    font-weight:bold;
+}
+
+.offering h1:after{
+    content:'';
+    width:120px;
+    height:5px;
+    display:block;
+    background:#ff0157;
+    border-radius: 5px;
+    margin:auto;
+}
+
+
+
+.offering .p-title{
+    color:#777;
+    font-size:1.5rem;
+    font-weight:300;
+    line-height:22px;
+    padding:10px;
+    margin-top:20px;
+}
+
+.offering p{
+    color:#777;
+    font-size:14px;
+    font-weight:300;
+    line-height:22px;
+    padding:10px;
+}
+
+.offer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap:30px;
+    margin:5%;
+}
+
+.offer-info{
+     background:#ffffff;
+     border-radius:10px;
+     padding:20px;
+     box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+h3{
+    text-align:center;
+    font-weight:600;
+    margin:10px 0;
+}
+
+.offer-info:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+    transform:scale(1.1);
+}
+/*--------END OF COURSE SECTION-------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
