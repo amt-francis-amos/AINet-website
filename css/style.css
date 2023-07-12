@@ -292,7 +292,8 @@ header .navigation li a:hover{
 
 .about-info p{
    padding:15px 0 25px;
-   text-align: justify;
+   text-align:justify;
+   line-height:1.7;
 }
 
 
