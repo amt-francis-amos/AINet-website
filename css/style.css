@@ -10,10 +10,10 @@
 }
 
 
-
-/* body{
+body{
+    overflow-x:hidden;
     min-height:1000px;
-} */
+} 
 
 
 
