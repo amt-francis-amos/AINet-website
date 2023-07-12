@@ -225,7 +225,7 @@ header .navigation li a:hover{
     min-height:400px;
     background-image:linear-gradient(rgba(33, 59, 146, 0.6),rgba(67, 235, 25, 0.6)),url(../images/pic.jpg); 
     background-size:cover;
-    background-position:center right;
+    background-position:center;
     position: relative;
 }
 
@@ -253,7 +253,7 @@ header .navigation li a:hover{
 
 .about-container{
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     padding:0 8%;
     gap:2rem;
 }
@@ -277,10 +277,7 @@ header .navigation li a:hover{
     margin:auto;
 }
 
-.about-info{
-    flex-basis:48%;
-    padding:30px 2px;
-}
+
 
 .about-info img{
     width:100%;
@@ -399,7 +396,7 @@ header .navigation li a:hover{
 /* .service-info-card:nth-child(1){
     /* background:linear-gradient(to bottom,#f02aa6,#ff6f48); */
     
-} */
+*/
 
 .service-info-card h2{
     color:var(--white-color);
@@ -956,83 +953,7 @@ strong{
     font-weight:400;
 }
 
-
-
 /* --------END OF FOOTER SECTION  ---------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1134,8 +1055,11 @@ strong{
         filter:invert(1);
     }
 
+/* -----END OF HEADER SECTION ------ */
 
-    .about-img, .services-img{
+
+
+    .about-img, .services-img,.contact-img{
         background-position:center;
     }
 
