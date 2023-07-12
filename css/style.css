@@ -107,12 +107,12 @@ header .navigation{
 
 header .navigation li{
     list-style:none;
-    margin-left:30px;
+    margin:10px 30px;
 }
 
 header .navigation li a{
     color:#000;
-    font-weight:400;
+    font-weight:500;
     text-transform:uppercase;
 }
 
