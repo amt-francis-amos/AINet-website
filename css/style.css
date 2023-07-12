@@ -285,14 +285,13 @@ header .navigation li a:hover{
 
 
 .solution-info{
-    
     margin-top:15%;
     background:#ffffff;
     padding:35px;
     text-align:center;
     line-height:1.7;
     border-radius:10px;
-  
+
 }
 
 
@@ -304,7 +303,15 @@ header .navigation li a:hover{
     font-size:40px;
     color:#fff;
     padding:16px;
+    transition:.3s;
 }
+
+.solution-info i:hover{
+    transform: scale(1.1);
+    background: #26014b;
+}
+
+
 
 
 .solution-info h2{
