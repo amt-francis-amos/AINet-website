@@ -15,9 +15,7 @@
     min-height:1000px;
 } */
 
-html{
-    scroll-behavior: smooth;
-}
+
 
 p{
     font-weight:300;
@@ -86,42 +84,6 @@ header.sticky .navigation li a:hover{
 
 /*--------HEADER SECTION-------*/
 
-.top{
-    width:50px;
-    height:50px;
-    background:#ff0157;
-    position:fixed;
-    border-radius:50%;
-    z-index:1;
-    bottom:5%;
-    right:5%;
-    cursor: pointer;
-    animation:move 3s linear infinite;
-}
-
-@keyframes move {
-
-    0%{
-        transform:translateY(-10px);
-    }
-
-
-    50%{
-        transform:translateY(10px);
-    }
-
-     100%{
-        transform:translateY(-10px);
-     }
-}
-
-.top i{
-    color:#fff;
-    font-size:20px;
-    padding:13px;
-    margin:auto 5px;
-    line-height:25px;
-}
 
 
 
