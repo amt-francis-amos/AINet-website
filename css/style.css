@@ -256,6 +256,66 @@ header .navigation li a:hover{
 
 
 
+/* -------SERVICES SECTION------ */
+
+.services{
+    padding:100px 0;
+}
+
+
+
+.services-img{
+    width:100%;
+    min-height:370px;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/services.jpg); 
+    background-size:cover;
+    background-position:center right;
+    position: relative;
+}
+
+
+.services-img h1{
+    font-size:4em;
+    color:#fff;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+
+
+.services-img h1:after{
+    content:'';
+    width:50px;
+    height:5px;
+    background:#ff0157;
+    display:block;
+    border-radius:5px;
+    margin:auto;
+}
+
+/* -------END OF SERVICES SECTION------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -------------OUR SOLUTION SECTION-------------- */
 
