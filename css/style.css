@@ -11,9 +11,9 @@
 
 
 
-body{
+/* body{
     min-height:1000px;
-}
+} */
 
 
 
@@ -184,6 +184,7 @@ header .navigation li a:hover{
     background:#ff0157;
     padding:16px 30px;
     margin-top:20px;
+    border:none;
     border-radius:50px;
     text-transform:uppercase;
     text-decoration:none;
@@ -275,13 +276,12 @@ header .navigation li a:hover{
 
 .solution-container{
     display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
     padding:0 8%;
     gap:2rem;
    
    
 }
-
 
 
 .solution-info{
@@ -293,6 +293,9 @@ header .navigation li a:hover{
     border-radius:10px;
 
 }
+
+
+
 
 
 .solution-info i{
@@ -310,9 +313,6 @@ header .navigation li a:hover{
     transform: scale(1.1);
     background: #26014b;
 }
-
-
-
 
 .solution-info h2{
     margin:10px 0;
@@ -340,6 +340,34 @@ header .navigation li a:hover{
     background-attachment:fixed;
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/cta.png);
 }
+
+
+.cta .cta-info{
+    min-height:20vh;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    
+}
+
+
+.cta-info h1{
+    font-size:3rem;
+    color:#fff;
+    margin-bottom:15px;
+}
+
+.cta-info p{
+    color:#d5d2d7;
+    font-size:18px;
+    font-weight:400;
+    margin-bottom:15px;
+}
+
+
+
+
 
 /* -------------END OF CALL TO ACTION-------------- */
 
@@ -763,13 +791,21 @@ strong{
     }
     
 
-    .solution-info i{
-        top:1%;
-        left:38%;
+    .cta{
+        background-position:center;;
     }
 
 
-
+    .cta-info h1{
+        font-size:1.5rem;
+      
+    }
+    
+    .cta-info p{
+        color:#d5d2d7;
+        font-size:15px;
+       
+    }
 
 
 }
