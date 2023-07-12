@@ -267,7 +267,7 @@ header .navigation li a:hover{
 .services-img{
     width:100%;
     min-height:370px;
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/services.jpg); 
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/services-2.jpg); 
     background-size:cover;
     background-position:center right;
     position: relative;
@@ -859,11 +859,16 @@ strong{
     }
 
 
-    .about-img{
+    .about-img, .services-img{
         background-position:center;
     }
 
     .about-img h1{
+        font-size:2em;
+    }
+
+
+    .services-img h1{
         font-size:2em;
     }
 
