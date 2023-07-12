@@ -1110,23 +1110,6 @@ strong{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .contact-img h1{
         font-size:2em;
     }
@@ -1156,6 +1139,13 @@ strong{
         text-align:center;
         font-size:18px;
     }
+
+
+.why-choose-info h2::after{
+    width:80px;
+    margin:5px auto;
+}
+
 
     .why-choose-info p{
         text-align:center;
