@@ -477,7 +477,9 @@ header .navigation li a:hover{
 }
 
 
-
+.why-choose-info .tel-con{
+    margin-top:50px;
+}
 
 
 
@@ -855,7 +857,10 @@ strong{
     
 
     .cta{
-        background-position:center;;
+        height:70vh;
+        overflow:hidden;
+        background-position:center;
+        background-repeat:no-repeat;
     }
 
 
