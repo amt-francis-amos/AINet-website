@@ -708,6 +708,18 @@ strong{
     }
 
 
+
+    .why-choose-info h2{
+        text-align:center;
+        font-size:18px;
+    }
+
+    .why-choose-info p{
+        text-align:center;
+    }
+
+
+
     .our-solution h1{
         margin-bottom:80px;
     }
