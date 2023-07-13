@@ -1419,10 +1419,12 @@ strong{
     }
 
 
-    .about-container{
+    .about-container, .why-choose-container{
        grid-template-columns:1fr;
 
     }
+
+  
 
 
 }
