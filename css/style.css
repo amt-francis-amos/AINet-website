@@ -738,12 +738,17 @@ h3{
 
 .partners{
     padding:100px 0;
+    background-image:linear-gradient(rgba(27, 20, 228, 0.7),rgba(16, 184, 199, 0.7)),url(../images/page.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 
 
 .partners h1{
     text-align:center;
     font-size:2rem;
+    color:#fff;
 }
 
 
@@ -765,6 +770,10 @@ h3{
     text-align:center;
 }
 
+
+.partners-info{
+    margin-top:7%;
+}
 
 
 
