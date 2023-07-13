@@ -1299,6 +1299,13 @@ strong{
 
 
 
+    .partners{
+        height:70vh;
+        overflow:hidden;
+        background-position:center;
+        background-repeat:no-repeat;
+    }
+
 
     .services-img h1{
         font-size:1.6em;
@@ -1333,20 +1340,6 @@ strong{
          margin:auto 50px ;
          border-radius:50%;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
