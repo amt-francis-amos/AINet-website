@@ -498,7 +498,7 @@ header .navigation li a:hover{
 .contact-info{
     width:100%;
     text-align:center;
-    padding:30px;
+    padding:20px;
     margin-top:20%;
     box-shadow:0px 0px 10px rgba(0,0,0,0.2);
     border-radius:15px;
@@ -551,6 +551,7 @@ header .navigation li a:hover{
     padding:12px 30px;
     color:#fff;
     border-radius:8px;
+    margin-bottom:30px;
 }
 
 .contact-info .chat{
