@@ -1419,6 +1419,12 @@ strong{
     }
 
 
+    .about-container{
+       grid-template-columns:1fr;
+
+    }
+
+
 }
 
 
