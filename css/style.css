@@ -276,7 +276,8 @@ header .navigation li a:hover{
 
 
 .about-info img{
-    width:100%;
+    max-width:100%;
+    border-radius:15px;
 }
 
 .about-info h1{
