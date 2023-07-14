@@ -278,7 +278,10 @@ header .navigation li a:hover{
 .about-info img{
     max-width:100%;
     border-radius:15px;
+    
 }
+
+
 
 .about-info h1{
     text-transform: uppercase;
