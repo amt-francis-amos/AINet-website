@@ -829,13 +829,13 @@ h3{
     padding:100px 0;
 }
 
-.gallery-page h1{
+.gallery-page h2{
     margin-top:5%;
     text-align:center;
 }
 
 
-.gallery-page  h1::after{
+.gallery-page  h2::after{
     content:'';
     width:100px;
     height:4px;
@@ -844,6 +844,63 @@ h3{
     display:block;
     margin:5px auto;
 }
+
+
+
+.gallery-img{
+    width:100%;
+    min-height:370px;
+    background-image:linear-gradient(rgba(33, 59, 146, 0.6),rgba(40, 148, 13, 0.6)),url(../images/galla-img.jpg); 
+    background-size:cover;
+    background-position:center right;
+    position: relative;
+}
+
+
+.gallery-img h1{
+    font-size:4em;
+    color:#fff;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+
+.gallery-img h1:after{
+    content:'';
+    width:50px;
+    height:5px;
+    background:#ff0157;
+    display:block;
+    border-radius:5px;
+    margin:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
