@@ -259,7 +259,7 @@ header .navigation li a:hover{
 .about-us h2{
     font-size:2rem;
     text-align:center;
-    margin-bottom:50px;
+    margin:50px 0;
 }
 
 
@@ -303,16 +303,9 @@ header .navigation li a:hover{
 
 /* -------SERVICES SECTION------ */
 
-.service{
+.services{
     padding:100px 0;
 }
-
-
-.service{
-    padding:100px 0;
-}
-
-
 
 
 .service .title{
