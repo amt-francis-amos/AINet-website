@@ -307,7 +307,7 @@ header .navigation li a:hover{
 
 /* -------SERVICES SECTION------ */
 
-.services{
+.services, .service{
     padding:100px 0;
 }
 
