@@ -24,8 +24,6 @@ p{
 
 
 
-
-
 /* -----CSS RESET ------------ */
 
 :root{
@@ -522,9 +520,30 @@ header .navigation li a:hover{
     margin-bottom:20px;
 }
 
+.contact-info .phone, .phone1{
+    font-size:18px;
+    color:#ff0157;
+    display: block;
+    font-weight:700;
+
+}
+
+
+
+
+
+
+
 .contact-info p{
     margin-bottom: 30px;
 }
+
+.contact-info p a{
+    color:#777;
+}
+
+
+
 
 .contact-info strong{
     color:#777;
@@ -882,25 +901,6 @@ h3{
     border-radius:5px;
     margin:auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
